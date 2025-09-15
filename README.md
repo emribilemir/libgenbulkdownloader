@@ -23,7 +23,7 @@ This script downloads e-books in EPUB format from Library Genesis in bulk, based
 
 2.  **Clone the repository and install Python dependencies:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/emribilemir/libgenbulkdownloader
     cd libgenbulkdownloader
     pip install -r requirements.txt
     ```
