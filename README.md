@@ -30,12 +30,16 @@ This script downloads e-books in EPUB format from Library Genesis in bulk, based
 
 ## Usage
 
-1.  Open the `isbn.txt` file and add the ISBNs of the books you want to download. Each ISBN should be on a new line.
-2.  Run the script from your terminal:
-    ```bash
-    python main.py
-    ```
-3.  The script will find the EPUB versions of the books and download them into the project directory.
+Run the script from your terminal:
+```bash
+python main.py
+```
+The script will prompt you to choose one of two options:
+
+1.  **Paste ISBNs directly:** You can copy your list of ISBNs and paste them into the terminal.
+2.  **Use `isbn.txt`:** The script can read the ISBNs from the `isbn.txt` file. If you choose this option, make sure you have added the ISBNs of the books you want to download to this file, with each ISBN on a new line.
+
+The script will then find the EPUB versions of the books and download them into the project directory.
 
 ## Credits
 This project utilizes the `libgen-api-enhanced` library.
